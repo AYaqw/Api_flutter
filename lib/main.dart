@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(        
         primarySwatch: Colors.blue,
       ),
-      home:const Center(child: Text("Main page")), //Api1(),
+      home: const Api1(),
     );
   }
 }
